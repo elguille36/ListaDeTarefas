@@ -3,13 +3,15 @@ const btn = document.querySelector("#todo-button");
 const lista = document.querySelector("#todo-list");
 
 
+
 btn.addEventListener("click", function(){
 
 if(tarefa.value ==""){
 
-    alert("digite uma tarefa")
+    alert("digite uma tarefa");
     
 }
+
 else{
 
     lista.innerHTML += 
@@ -18,9 +20,13 @@ else{
     <span> ${tarefa.value}</span></i>
     <i class="bi bi-trash3" id="delete"></i></li>
     `
+
+    tarefa.value ="";
+
 }
 
-tarefa.value =="";
+
+
 
 const close = document.querySelectorAll("#delete");
 
@@ -40,8 +46,5 @@ e.target.parentElement.querySelector("#check").style.color = "#349223";
 e.target.parentElement.querySelector("span").style.textDecoration ="line-through";
 
 })
-
-
-
 
 })
