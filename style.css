@@ -19,6 +19,7 @@ body {
 .santa {
     animation: rotacion 3s linear infinite;
     box-shadow: 0px 0px 1px #333;
+    border-radius: 30px;
   }
   
   /* Animación de rotación */
@@ -31,10 +32,6 @@ body {
     }
   }
 
-.santa{
-
-    border-radius: 30px;
-}
 
 main{
     display: flex;
