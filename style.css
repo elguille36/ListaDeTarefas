@@ -10,6 +10,12 @@ body {
     font-family: Arial, sans-serif;
 }
 
+#google_translate_element{
+
+  float: right;
+  margin-right: 10px;
+}
+
 .carousel-inner img{
 
     height: 200px;
@@ -17,12 +23,12 @@ body {
 }
 
 .santa {
-    animation: rotacion 3s linear infinite;
+    animation: rotacion 10s linear infinite;
     box-shadow: 0px 0px 1px #333;
-    border-radius: 30px;
+    border-radius: 15px;
   }
   
-  /* Animación de rotación */
+  /* Animación de rotación 
   @keyframes rotacion {
     0% {
       transform: rotate(0deg);
@@ -30,7 +36,7 @@ body {
     100% {
       transform: rotate(360deg);
     }
-  }
+  }*/
 
 
 main{
@@ -106,10 +112,9 @@ background-color: #e4897f;
 
 footer{
 
-    background-image: url(./img/pe\ de\ pagina.jfif);
+    /*background-image: url(./img/diversidad\ cultural.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 15vh;
+    background-size: cover;*/
     display: flex;
     justify-content: center;
     justify-items: center;
@@ -118,8 +123,9 @@ footer{
 
 .pe-pagina{
 
-    color: #fff;
+    color: #1407c0;
     margin-top: 4%;
+    font-size: 20px;
 }
 
 /*.todo-item {
@@ -161,7 +167,31 @@ footer{
 
         font-size: 1rem;
     }
-}
+
+    footer{
+
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        background-image: url(./img/diversidad\ cultural1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 24vh;
+    }
+
+    .pe-pagina{
+
+        font-size: 12px;
+        color: #fff;
+    }
+
+    .titulo{
+
+        font-size: 15px;
+    }
+
+    }
+
 
 @media (min-width:601px) and (max-width:1200px){
 
